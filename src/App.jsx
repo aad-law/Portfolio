@@ -1,4 +1,4 @@
-import Home from './Component/Home';
+import Brain from './Component/Brain';
 import Left from './Component/Left';
 import Navbar from './Component/Navbar';
 import './App.css';
@@ -11,20 +11,27 @@ export default function App() {
       <Navbar />
 
       <div className="layout">
-        {/* First Page - Hero Section */}
+
+
+        {/*First Page*/}
+
         <div className="hero-section" id="home">
           <Left />
-          <Home />
+          <Brain />
         </div>
 
-        {/* Second Page - About Section */}
+
+        {/*Second Page*/}
+
         <div id="about">
           <TwoPage />
         </div>
+
+        {/*Project section*/}
         <div id="Projects">
-     <section id="projects" style={{ paddingTop: "80px" }}>
-          <Project />
-      </section>
+          <section id="projects" style={{ paddingTop: "80px" }}>
+            <Project />
+          </section>
 
         </div>
       </div>
