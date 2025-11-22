@@ -23,8 +23,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 /* Logo */
@@ -38,6 +39,7 @@
   text-decoration: none;
   letter-spacing: 1px;
   transition: all 0.3s ease;
+  z-index: 1001;
 }
 
 .navbar-logo:hover {
@@ -94,6 +96,7 @@
   color: #fff;
   cursor: pointer;
   padding: 8px;
+  z-index: 1001;
 }
 
 /* Mobile Menu */
@@ -135,13 +138,97 @@
   margin-top: 10px;
 }
 
-/* Responsive Design */
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Large tablets and small laptops */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+  
+  .navbar-scrolled {
+    padding: 12px 40px;
+  }
+  
+  .navbar-desktop-menu {
+    gap: 30px;
+  }
+}
+
+/* Tablets portrait */
 @media (max-width: 768px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+  
+  .navbar-scrolled {
+    padding: 15px 30px;
+  }
+  
+  .navbar-logo {
+    font-size: 22px;
+  }
+  
   .navbar-desktop-menu {
     display: none;
   }
   
   .mobile-menu-btn {
     display: block;
+  }
+  
+  .mobile-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+  }
+  
+  .mobile-menu-link {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 18px 20px;
+  }
+  
+  .navbar-scrolled {
+    padding: 12px 20px;
+  }
+  
+  .navbar-logo {
+    font-size: 20px;
+  }
+  
+  .mobile-menu {
+    padding: 25px 20px;
+  }
+  
+  .mobile-menu-link {
+    font-size: 18px;
+  }
+  
+  .mobile-menu-cta {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 360px) {
+  .navbar-logo {
+    font-size: 18px;
+  }
+  
+  .mobile-menu-link {
+    font-size: 16px;
   }
 }

@@ -193,3 +193,194 @@
   color: #fff;
   margin: 0;
 }
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Large tablets and small laptops */
+@media (max-width: 1024px) {
+  .two-page-container {
+    padding: 80px 40px;
+  }
+  
+  .content-grid {
+    gap: 40px;
+  }
+  
+  .section-title {
+    font-size: 40px;
+  }
+  
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+}
+
+/* Tablets portrait */
+@media (max-width: 768px) {
+  .two-page-container {
+    padding: 60px 30px;
+  }
+  
+  .section-header {
+    margin-bottom: 60px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+  }
+  
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  
+  .photo-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .corner-top-left,
+  .corner-bottom-right {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .story-card {
+    padding: 30px;
+  }
+  
+  .story-heading {
+    font-size: 22px;
+  }
+  
+  .story-text {
+    font-size: 15px;
+  }
+  
+  .tech-stack-section {
+    margin-top: 80px;
+  }
+  
+  .tech-stack-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .tech-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .two-page-container {
+    padding: 60px 20px;
+  }
+  
+  .section-subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .section-header {
+    margin-bottom: 40px;
+  }
+  
+  .content-grid {
+    gap: 40px;
+  }
+  
+  .photo-container {
+    max-width: 300px;
+  }
+  
+  .corner-top-left,
+  .corner-bottom-right {
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+  }
+  
+  .story-card {
+    padding: 25px 20px;
+  }
+  
+  .story-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .heading-accent {
+    width: 5px;
+    height: 25px;
+  }
+  
+  .story-heading-spaced {
+    margin-top: 30px;
+  }
+  
+  .story-text {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  .tech-stack-section {
+    margin-top: 60px;
+  }
+  
+  .tech-stack-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .tech-card {
+    padding: 20px 15px;
+  }
+  
+  .tech-icon {
+    margin-bottom: 10px;
+  }
+  
+  .tech-name {
+    font-size: 16px;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 360px) {
+  .section-title {
+    font-size: 24px;
+  }
+  
+  .photo-container {
+    max-width: 260px;
+  }
+  
+  .story-heading {
+    font-size: 18px;
+  }
+  
+  .story-text {
+    font-size: 13px;
+  }
+  
+  .tech-stack-title {
+    font-size: 22px;
+  }
+  
+  .tech-name {
+    font-size: 15px;
+  }
+}

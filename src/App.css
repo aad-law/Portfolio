@@ -83,4 +83,50 @@ body::-webkit-scrollbar-thumb:hover {
   background: #6366f1;
 }
 
+/* ================= RESPONSIVE DESIGN ================= */
+@media (max-width: 1024px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .spline-slide-in {
+    height: 50vh;
+    min-height: 400px;
+    animation: slideDown 0.8s ease-out forwards;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
 
+@media (max-width: 768px) {
+  .layout {
+    scroll-snap-type: none;
+  }
+  
+  .hero-section {
+    scroll-snap-align: none;
+  }
+  
+  .spline-slide-in {
+    height: 40vh;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .spline-slide-in {
+    height: 35vh;
+    min-height: 250px;
+  }
+}

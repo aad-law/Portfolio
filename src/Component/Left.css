@@ -198,3 +198,124 @@
     transform: translateY(-10px); 
   }
 }
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Tablets and small laptops */
+@media (max-width: 1024px) {
+  .left-container {
+    padding: 60px 40px;
+    min-height: auto;
+  }
+  
+  .name {
+    font-size: 56px;
+  }
+  
+  .tagline {
+    font-size: 20px;
+  }
+  
+  .scroll-indicator {
+    left: 40px;
+  }
+}
+
+/* Tablets portrait */
+@media (max-width: 768px) {
+  .left-container {
+    padding: 80px 30px 60px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .background-glow {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .greeting {
+    font-size: 16px;
+  }
+  
+  .name {
+    font-size: 48px;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    max-width: 400px;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    gap: 15px;
+  }
+  
+  .primary-btn, .secondary-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 14px 28px;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .scroll-indicator {
+    display: none;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .left-container {
+    padding: 60px 20px 40px;
+  }
+  
+  .greeting {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+  
+  .name {
+    font-size: 36px;
+  }
+  
+  .tagline {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    margin-bottom: 40px;
+  }
+  
+  .social-icon {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .social-links {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 360px) {
+  .name {
+    font-size: 32px;
+  }
+  
+  .tagline {
+    font-size: 15px;
+  }
+  
+  .primary-btn, .secondary-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
