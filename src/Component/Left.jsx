@@ -32,8 +32,9 @@ export default function Left() {
         </button>
 
         <a href={resume} download className="secondary-btn">
-          <Download size={20} /> Resume
-        </a>
+  <Download size={20} /> Resume
+</a>
+
       </div>
 
       <div className="social-links">
