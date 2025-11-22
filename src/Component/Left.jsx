@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Instagram, Code2, Download, ArrowRight } from 'lucide-react';
-import resume from '../assets/Aadesh_lawate-Resume.pdf';
+import resume from '../assets/Aadesh_Lawate-Resume.pdf';
 import './Left.css';
 
 export default function Left() {
