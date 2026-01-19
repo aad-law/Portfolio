@@ -60,7 +60,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      
       <div className={`mobile-menu ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
         {navLinks.map((link) => (
           <a
