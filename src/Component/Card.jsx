@@ -12,7 +12,7 @@ export default function Card({ title, description, image, tech = [], link, githu
           className="card-image"
         />
         
-        {/* Gradient Overlay */}
+        
         <div className="card-gradient-overlay" />
 
         {/* Links Overlay */}
