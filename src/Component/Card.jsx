@@ -5,7 +5,6 @@ import './Card.css';
 export default function Card({ title, description, image, tech = [], link, githubLink }) {
   return (
     <div className="card">
-      {/* Image Container with Overlay */}
       <div className="card-image-container">
         <img
           src={image}
