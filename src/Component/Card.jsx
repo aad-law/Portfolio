@@ -42,7 +42,7 @@ export default function Card({ title, description, image, tech = [], link, githu
         </div>
       </div>
 
-      {/* Content Section */}
+      
       <div className="card-content">
         {/* Title */}
         <h2 className="card-title">
