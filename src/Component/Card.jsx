@@ -15,7 +15,7 @@ export default function Card({ title, description, image, tech = [], link, githu
         
         <div className="card-gradient-overlay" />
 
-        {/* Links Overlay */}
+        
         <div className="card-links">
           {githubLink && (
             <a
