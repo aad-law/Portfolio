@@ -42,13 +42,7 @@ export default function Navbar() {
             </a>
           ))}
 
-          {/* CTA Button */}
-          {/* <a
-            href="#contact"
-            className="navbar-cta-button"
-          >
-            Let's Talk
-          </a> */}
+        
         </div>
 
         {/* Mobile Menu Button */}
