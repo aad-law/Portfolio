@@ -73,13 +73,7 @@ export default function Navbar() {
           </a>
         ))}
 
-        {/* <a
-          href="#contact"
-          onClick={() => setIsMobileMenuOpen(false)}
-          className="mobile-menu-cta"
-        >
-          Let's Talk
-        </a> */}
+      
       </div>
     </nav>
   );
