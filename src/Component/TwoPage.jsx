@@ -66,7 +66,7 @@ export default class TwoPage extends Component {
                 What Drives Me
               </h3>
               <p className="story-text">
-                What drives me is the desire to build efficient, practical solutions that solve real problems. I focus on writing clean, maintainable code, understanding how systems work behind the scenes, and continuously improving my skills to create better user experiences. Every project is an opportunity to learn, refine my approach, and become a more reliable and skilled engineer.
+                
               </p>
             </div>
           </div>
