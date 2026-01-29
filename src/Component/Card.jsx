@@ -66,7 +66,7 @@ export default function Card({ title, description, image, tech = [], link, githu
         )}
       </div>
 
-      {/* Bottom Accent Line */}
+      
       <div className="card-accent" />
     </div>
   );
