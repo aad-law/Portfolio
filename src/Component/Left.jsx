@@ -5,7 +5,7 @@ import './Left.css';
 
 export default function Left() {
   const socialLinks = [
-    { Icon: Github, href: 'https://github.com/aad-law', label: 'GitHub: aad-law' },
+    
     { Icon: Linkedin, href: 'https://www.linkedin.com/in/aad-law', label: 'LinkedIn: aad-law' },
     { Icon: Instagram, href: 'https://www.instagram.com/aadlaw1/', label: 'Instagram: aadlaw1' },
     { Icon: Code2, href: 'https://leetcode.com/u/aad-law/', label: 'LeetCode: aad-law' },
